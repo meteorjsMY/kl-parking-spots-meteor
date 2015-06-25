@@ -1,0 +1,34 @@
+<head>
+  <title>KL Parking Spots</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+</head>
+
+<template name="index">
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">KL Parking Spot</h1>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#ionList}}
+        {{#each spots}}
+          {{#ionItem avatar=true}}
+            <img src="/images/{{id}}.png">
+            <div class="row fit">
+              <div class="col-50">
+                <h2>{{name}}</h2>
+                <span class="datetime">{{datetime}}</span>
+              </div>
+              <div class="col-50 col-offset-10 text-center">
+                <span class="lot">{{lot}}</span>
+              </div>
+            </div>
+          {{/ionItem}}
+        {{/each}}
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+
+</template>
