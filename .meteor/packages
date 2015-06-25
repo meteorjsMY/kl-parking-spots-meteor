@@ -12,3 +12,7 @@ fourseven:scss
 iron:router
 percolate:synced-cron
 http
+meteorhacks:npm
+
+
+npm-container

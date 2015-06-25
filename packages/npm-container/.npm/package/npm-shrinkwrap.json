@@ -1,0 +1,163 @@
+{
+  "dependencies": {
+    "kl-parking-spots": {
+      "version": "1.3.2",
+      "dependencies": {
+        "columnify": {
+          "version": "1.5.1",
+          "dependencies": {
+            "strip-ansi": {
+              "version": "2.0.1",
+              "dependencies": {
+                "ansi-regex": {
+                  "version": "1.1.1"
+                }
+              }
+            },
+            "wcwidth": {
+              "version": "1.0.0",
+              "dependencies": {
+                "defaults": {
+                  "version": "1.0.2",
+                  "dependencies": {
+                    "clone": {
+                      "version": "0.1.19"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "got": {
+          "version": "3.2.0",
+          "dependencies": {
+            "duplexify": {
+              "version": "3.4.2",
+              "dependencies": {
+                "end-of-stream": {
+                  "version": "1.0.0",
+                  "dependencies": {
+                    "once": {
+                      "version": "1.3.2",
+                      "dependencies": {
+                        "wrappy": {
+                          "version": "1.0.1"
+                        }
+                      }
+                    }
+                  }
+                },
+                "readable-stream": {
+                  "version": "2.0.1",
+                  "dependencies": {
+                    "core-util-is": {
+                      "version": "1.0.1"
+                    },
+                    "inherits": {
+                      "version": "2.0.1"
+                    },
+                    "isarray": {
+                      "version": "0.0.1"
+                    },
+                    "process-nextick-args": {
+                      "version": "1.0.1"
+                    },
+                    "string_decoder": {
+                      "version": "0.10.31"
+                    },
+                    "util-deprecate": {
+                      "version": "1.0.1"
+                    }
+                  }
+                }
+              }
+            },
+            "infinity-agent": {
+              "version": "2.0.3"
+            },
+            "is-stream": {
+              "version": "1.0.1"
+            },
+            "lowercase-keys": {
+              "version": "1.0.0"
+            },
+            "nested-error-stacks": {
+              "version": "1.0.0"
+            },
+            "object-assign": {
+              "version": "2.1.1"
+            },
+            "prepend-http": {
+              "version": "1.0.1"
+            },
+            "read-all-stream": {
+              "version": "2.2.0",
+              "dependencies": {
+                "readable-stream": {
+                  "version": "2.0.1",
+                  "dependencies": {
+                    "core-util-is": {
+                      "version": "1.0.1"
+                    },
+                    "inherits": {
+                      "version": "2.0.1"
+                    },
+                    "isarray": {
+                      "version": "0.0.1"
+                    },
+                    "process-nextick-args": {
+                      "version": "1.0.1"
+                    },
+                    "string_decoder": {
+                      "version": "0.10.31"
+                    },
+                    "util-deprecate": {
+                      "version": "1.0.1"
+                    }
+                  }
+                }
+              }
+            },
+            "statuses": {
+              "version": "1.2.1"
+            },
+            "timed-out": {
+              "version": "2.0.0"
+            }
+          }
+        },
+        "lodash": {
+          "version": "3.9.3"
+        },
+        "title-case": {
+          "version": "1.1.1",
+          "dependencies": {
+            "sentence-case": {
+              "version": "1.1.2",
+              "dependencies": {
+                "lower-case": {
+                  "version": "1.1.2"
+                }
+              }
+            },
+            "upper-case": {
+              "version": "1.1.2"
+            }
+          }
+        },
+        "xml2js": {
+          "version": "0.4.9",
+          "dependencies": {
+            "sax": {
+              "version": "0.6.1"
+            },
+            "xmlbuilder": {
+              "version": "2.6.4"
+            }
+          }
+        }
+      }
+    }
+  }
+}
